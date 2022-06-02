@@ -18,6 +18,7 @@ BuildRequires: cmake(Qt5Gui)
 BuildRequires: cmake(Qt5Multimedia)
 BuildRequires: cmake(Qt5Widgets)
 BuildRequires: pkgconfig(alsa)
+BuildRequires: pkgconfig(glib-2.0)
 
 %description
 Roland MT-32 emulator
