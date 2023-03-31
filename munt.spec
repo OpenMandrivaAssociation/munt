@@ -6,7 +6,7 @@
 
 Name: munt
 Version: 2.6.2
-Release: 1
+Release: 2
 Source0: https://github.com/munt/munt/archive/refs/tags/munt_%{tagversion}.tar.gz
 Summary: Roland MT-32 emulator
 URL: https://github.com/munt/munt
