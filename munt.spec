@@ -5,8 +5,8 @@
 %define tagversion %(echo %{version} | sed -e 's,\\\.,_,g')
 
 Name: munt
-Version: 2.6.2
-Release: 2
+Version: 2.7.0
+Release: 1
 Source0: https://github.com/munt/munt/archive/refs/tags/munt_%{tagversion}.tar.gz
 Summary: Roland MT-32 emulator
 URL: https://github.com/munt/munt
