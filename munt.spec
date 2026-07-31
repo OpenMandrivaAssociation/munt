@@ -5,7 +5,7 @@
 %define tagversion %(echo %{version} | sed -e 's,\\\.,_,g')
 
 Name: munt
-Version: 2.7.0
+Version: 2.8.2
 Release: 1
 Source0: https://github.com/munt/munt/archive/refs/tags/munt_%{tagversion}.tar.gz
 Summary: Roland MT-32 emulator
@@ -46,7 +46,7 @@ Requires: %{libname} = %{EVRD}
 Development files (Headers etc.) for %{name}.
 
 %prep
-%autosetup -p1 -n %{name}-%{name}_%{tagversion}
+%autosetup -p1 -n munt-munt_2_8_2
 %cmake -G Ninja
 
 %build
